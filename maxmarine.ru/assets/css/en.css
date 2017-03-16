@@ -1,0 +1,11 @@
+#intro_section h1 {
+     font-size: 67px;
+}
+
+#intro_section p.description:before, #intro_section p.description:after {
+    width: 165px;
+}
+
+#about_section .container {
+    width: 964px;
+}

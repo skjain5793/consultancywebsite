@@ -1,0 +1,26 @@
+HTTrack3.48-22+htsswf+htsjava launched on Thu, 16 Mar 2017 14:28:40 at http://maxmarine.ru/en/#intro +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://maxmarine.ru/en/#intro -O1 "C:\My Web Sites\Consultancy" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:28:58	Warning: 	Note: due to maxmarine.ru remote robots.txt rules, links beginning with these path will be forbidden: /mailer/, /mail.php (see in the options to disable this)
+14:31:15	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/robots.txt (from primary/primary)
+14:31:15	Warning: 	Retry after error -5 (Unable to get server's address: The requested name is valid, but no data of the ) at link primary/intro (from primary/primary)
+14:31:48	Warning: 	Retry after error -4 (Incorrect length (444961 Bytes, 561886 expected)) at link maxmarine.ru/assets/images/experts/max.png (from maxmarine.ru/en/)
+14:31:48	Warning: 	Retry after error -4 (Incorrect length (307717 Bytes, 651504 expected)) at link maxmarine.ru/assets/images/experts/georgy.png (from maxmarine.ru/en/)
+14:32:12	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link primary/intro (from primary/primary)
+14:32:16	Error: 	"Not Found" (404) at link maxmarine.ru/en/promise/polyfill.js (from maxmarine.ru/assets/js/less.min.js)
+14:32:16	Error: 	"Not Found" (404) at link maxmarine.ru/less/environment/abstract-file-manager.js (from maxmarine.ru/assets/js/less.min.js)
+14:32:16	Error: 	"Not Found" (404) at link maxmarine.ru/en/GET (from maxmarine.ru/assets/js/less.min.js)
+14:32:16	Error: 	"Not Found" (404) at link maxmarine.ru/en/math-helper.js (from maxmarine.ru/assets/js/less.min.js)
+14:32:16	Error: 	"Not Found" (404) at link maxmarine.ru/en/core.js (from maxmarine.ru/assets/js/less.min.js)
+14:32:16	Error: 	"Not Found" (404) at link maxmarine.ru/en/lib/core.js (from maxmarine.ru/assets/js/less.min.js)
+14:32:16	Error: 	"Not Found" (404) at link maxmarine.ru/en/lib/es6-extensions.js (from maxmarine.ru/assets/js/less.min.js)
+14:32:16	Error: 	"Not Found" (404) at link maxmarine.ru/en/polyfill-done.js (from maxmarine.ru/assets/js/less.min.js)
+14:32:16	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/intro (from primary/primary)
+
+HTTrack Website Copier/3.48-22 mirror complete in 3 minutes 36 seconds : 44 links scanned, 29 files written (5022184 bytes overall) [4695150 bytes received at 21736 bytes/sec], 473736 bytes transferred using HTTP compression in 10 files, ratio 28%, 2.1 requests per connection
+(10 errors, 5 warnings, 0 messages)
